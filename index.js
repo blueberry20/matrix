@@ -1,5 +1,4 @@
-//Olga Smith
-//I was tasked with the coding exercise to find submatrix of a given matrix by deleting the specified rows and columns.
+// Coding exercise to find submatrix of a given matrix by deleting the specified rows and columns.
 
 let matrix = [
 	[1, 2, 3, 4, 5],
@@ -31,5 +30,5 @@ function findSubmatrix(matrix, rowsToDelete, columnsToDelete) {
 		}
 	});
 
-	return matrix;
+	return [matrix];
 }
